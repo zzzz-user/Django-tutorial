@@ -1,3 +1,8 @@
+# indexの処理で必要
+from django.http import HttpResponse
+from django.template import loader
+
+# detail
 from django.shortcuts import get_object_or_404, render
 
 from .models import Question
